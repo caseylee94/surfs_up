@@ -13,3 +13,7 @@ The summary statistics for temperature for each month were found using Jupyter N
  The same analysis was performed for the month of December and are shown below:
  
   ![December_Temps.png](/Resources/December_Temps.png)
+
+* The average temperature for June is 75F and the average temperature for December is 5% lower at 71F
+* The December temperatures seem to be more variable than those in June given its larger range in recorded temperatures (comparing the max vs min temp of each month)
+* The minimum temperature in December will have the biggest impact on the business at 56F
