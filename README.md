@@ -6,10 +6,10 @@ The purpose of this challenge is to use advanced data retrieval and storage to p
 
 ## FEATURES AND DATA SOURCES
 
-Data Source: hawaii.sqlite
-Programming Files: SurfsUp_Challenge.ipynb, climate_analysis.ipynb
-Data Tools: Python SQL toolkit (SQLAlchemy), Object Relational Mapper, pandas, numpy
-Software: SQLlite, Python 3.9.2, Flask, Jupyter Notebook
+* Data Source: hawaii.sqlite
+* Programming Files: SurfsUp_Challenge.ipynb, climate_analysis.ipynb
+* Data Tools: Python SQL toolkit (SQLAlchemy), Object Relational Mapper, pandas, numpy
+* Software: SQLlite, Python 3.9.2, Flask, Jupyter Notebook
 
 ## Results
 
