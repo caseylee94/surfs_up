@@ -2,8 +2,9 @@
 # app = Flask(__name__)
 # @app.route('/')
 # def hello_world():
-#     return'Hello world'
+#    return'Hello world'
 
+# Import all dependencies
 import datetime as dt
 import pandas as pd
 import numpy as np
@@ -11,40 +12,47 @@ import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
-
 from flask import Flask, jsonify
 
 # Set up the database engine
 engine = create_engine("sqlite:///hawaii.sqlite")
 
-# Reflect the database into the engine
+# # Reflect the database into the engine
 Base = automap_base()
 
+# Reflect tha tables
 Base.prepare(engine, reflect=True)
 
-# Create the variables
+# # Create the variables to access the measurement and station databases
 Measurement = Base.classes.measurement
 Station = Base.classes.station
 
-#Create a session link
+# #Create a session link
 session = Session(engine)
 
-#Create the flask app
+# #Create the flask app
 app = Flask(__name__)
 
-# Define the welcome route
+# # Define the welcome route
 @app.route("/")
 
 # Create the function the display the weather variables
 def welcome():
     return(
     '''
+    <br>
     Welcome to the Climate Analysis API!
+    </br> <br>
     Available Routes:
-    /api/v1.0/precipitation
-    /api/v1.0/stations
-    /api/v1.0/tobs
-    /api/v1.0/temp/start/end
+    </br> <br>
+        /api/v1.0/precipitation
+    </br> <br>
+        /api/v1.0/stations
+    </br> <br>
+        /api/v1.0/tobs
+    </br> <br>
+        /api/v1.0/temp/start/end
+    </br>
     ''')
 
 
