@@ -25,7 +25,7 @@ The summary statistics for temperature for each month were found using Python pa
 * The December temperatures seem to be more variable than those in June given its larger range in recorded temperatures (comparing the max vs min temp of each month)
 * The minimum temperature in December will have the biggest impact on the business at 56F
 
-To assist potential investors that are unfamiliar with Jupyter Notebook and VSCode, a Flask App was created to allow them to view the results of the temperature data in a user-friendly interface. The app shows users the precipitation data, the stations data, and the temperature observations. The app also allows users to choose a start and end data and then see the minimum, maximum, and average temperatures for that range.
+To assist potential investors that are unfamiliar with Jupyter Notebook and VSCode, a Flask App was created to allow them to view the results of the temperature data in a user-friendly interface. The app shows users the precipitation data, the stations data, and the temperature observations. The app also allows users to choose a start and end data and then see the minimum, maximum, and average temperatures for that range. The file containing the code for the app is "app.py" in this repo.
 
 ## Summary 
 
